@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="Stucture.css">
+    <link rel="stylesheet" href="bootstrap.main.css">
+
+    
+</head>
+<body>
+    
+    <header>
+        <div class="row header">
+            <!-- <div class="col-4"><img src="https://www.crc.up.ac.th/th/upload/brand-crc.png" height="100px"></div> -->
+            <div class="col-4 ">
+                <h1 id="intro">Web Technology</h1>
+            </div>
+        <div class="col-4">
+            <h3 id="name"></h3>
+        </div>
+    </div>
+        
+    </header> 
+    <script src="mouse_click.js"></script>
+    <aside>
+        <div class="container-fluid">
+            <div class="row be-primary bg-gradient p-4">
+            </div>
+            <div class="row">
+                <div class="col-1 be-light p-3" style="height: 22vh;">
+                    <ul class="p-0">
+                        <h2 class="text-center text-primary bg-while p-0">Menu</h2>
+                        <li>Home</li>
+                        <li>News</li>
+                        <li>Contact Us</li>
+                        <li>About Us</li>
+                    </ul>
+                </div>
+            
+            <div class="row  p-3 w-100 bottom-0" style="position: left;">
+            </div>
+        </div>
+       
+    </aside>
+
+    <main>
+   
+        <div class="main-layout">
+        
+            <div class="text" stick="margin-bottom:20px;"></div>
+            <div class="stick1" id="stick1">Sticky Note 1</div>
+            <div class="stick2" id="stick2">Sticky Note 2</div>
+            <div class="stick3" id="stick3">Sticky Note 3</div>
+            <div style="margin-top: 15px;">ข้อความด้านล่าง sticky Note</div>
+        </div>
+        
+        <div class = "container mt-5">
+            <div class="row">
+                <div class="col">
+                    <button type="button" id="btn1">Click Me#1</button>
+                </div>
+                <div class="col">
+                    <button type="button" id="btn2">Click Me#2</button>
+                </div>
+            </div>
+        </div>
+ 
+    </main>
+
+
+    <footer>
+        <div class="Contact mt-5">
+            <form action="" method="post" style="margin: 50px">
+                <!-- Text Input -->
+                 <div class="mb-3">
+                    <label for="text-input" class="form-label">Text Input</label><br>
+                    <input type="text" class="form-control" id="text-input" name="text-input" style="margin: 5px;" required>
+                 </div>
+    
+                 <!-- Password Input -->
+                  <div class="mb-3">
+                    <label for="password-input" class="form-label">Password</label><br>
+                    <input type="password" class="form-control" id="password-input" name="password-input"  style="margin: 5px;" required>
+                  </div>
+    
+                  <!-- Textarea -->
+                   <div class="mb-3">
+                    <label for="textarea" class="form-label">Textarea</label><br>
+                    <textarea class="form-control" id="textarea" name="textarea" row="1" required ></textarea>
+                   </div>
+    
+                   <!-- Radio Buttons -->
+                    <div class="mb-3">
+                        <label for="form-label">Gender:</label>
+                        <div class="form-check"  style="margin: 5px;">
+                            <input class="form-check-input" type="radio" name="gender" id="male" value="male" required>
+                            <label class="form-check-input" for="male">Male</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gender" id="female" value="female" required>
+                            <label class="form-check-input" for="female">Female</label>
+                        </div>  
+                    </div>
+    
+                    <!-- Checkbox -->
+                     <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="subcribe" name="subcribe" value="subcribe">
+                        <label class="form-check-label" for="subcribe">Subscribe to newletter</label> 
+                    </div>
+    
+                    <!-- Select Dropdown -->
+                     <div class="mb-3">
+                        <label for="select" class="form-label">Select afruit:</label><br> 
+                        <select class="form-select" name="select" id="select" style="margin: 5px;" required>  
+                            <option value="apple">Apple</option>
+                            <option value="banana">Banana</option>
+                            <option value="orange">Orange</option>
+                        </select>
+                     </div>
+    
+                     <!-- File Input -->
+                      <div class="mb-3">
+                        <label for="flie" class="form-label">Choose a file:</label><br>
+                        <input type="file" class="form-control" id="flie" name="flie" accept=".jpg, .jpeg, .png" style="margin: 5px;" required>
+                      </div>
+    
+                      <!-- Submit Button -->
+                       <button type="submit" class="btn btn-primary" style="margin: 10px;">Sub</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
